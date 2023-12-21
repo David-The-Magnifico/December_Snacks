@@ -1,0 +1,3 @@
+def my_discount(price, discount):
+    discounted_price = price - (price * (discount / 100))
+    return discounted_price
